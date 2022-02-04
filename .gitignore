@@ -2,4 +2,4 @@
 .vscode
 static/datasets/*
 
-!static/datasets/demo/*
+!static/datasets/demo
