@@ -3,5 +3,5 @@
 outputs/*
 datasets/*
 
-!outputs/.gitkeep
+!outputs/hmm_0
 !datasets/.gitkeep
