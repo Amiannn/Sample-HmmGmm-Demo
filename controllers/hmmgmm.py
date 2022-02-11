@@ -112,7 +112,7 @@ class hmmgmm():
         # hmm = HMM(states_length=5, mixtures=2)
         hmm = hmmgmm.hmm
         
-        _, history = hmm.train(observations=[train_data], epoch=20)
+        _, history = hmm.train(observations=[train_data], epoch=10)
 
         # make response
         res.message = 'Train Demo hidden markov model successfully.'

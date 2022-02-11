@@ -1,4 +1,4 @@
-const BASE_URL = '/api'
+import { BASE_URL } from "./cfg.js";
 
 export class datasetApi {
     static getDemo(func, efunc) {
